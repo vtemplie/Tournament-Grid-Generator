@@ -41,8 +41,7 @@ typedef struct {
 /** Object for designing the tournament grid */
 typedef struct {
     unsigned int num_players;
-    unsigned int day[NUM_MAX_PLAYERS]
-                    [NUM_MAX_PLAYERS];
+    unsigned int day[NUM_MAX_PLAYERS][NUM_MAX_PLAYERS];
 } Grid;
 
 
