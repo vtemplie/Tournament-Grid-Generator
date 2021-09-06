@@ -20,7 +20,7 @@ ${OBJDIR}/%.o: %.c
 .PHONY: test clean
 
 test: build
-	bats check.bats
+	bats tests/check.bats
 
 clean: 
 	rm -f ${TARGET}
