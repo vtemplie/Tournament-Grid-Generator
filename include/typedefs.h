@@ -2,7 +2,7 @@
  ******************************************************************************
  * @file     typedef.h
  * @brief    Header file to contain the defines, structs and enums
- *           for the tournament functions
+ *           for the tournament and display functions
  *           
  ******************************************************************************
  * @attention
