@@ -1,4 +1,4 @@
-name: Tournament Grid Generator CI
+name: CI
 
 on:
   push:
