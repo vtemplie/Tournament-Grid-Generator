@@ -21,5 +21,7 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@main
+      - name: Bats installation
+        run : apt-get install -y bats
       - name: make test
         run : make test
