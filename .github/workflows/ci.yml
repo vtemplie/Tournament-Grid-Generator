@@ -1,0 +1,20 @@
+name: Tournament Grid Generator CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: make
+      run: make
+  
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: make test
+      run : make test
