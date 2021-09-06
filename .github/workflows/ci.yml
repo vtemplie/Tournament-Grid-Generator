@@ -21,7 +21,11 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@main
-      - name: Bats installation
-        run : apt-get install -y bats
+        
+      - name: Setup BATS
+        uses: mig4/setup-bats@v1
+        with:
+          bats-version: 1.2.1
+
       - name: make test
         run : make test
