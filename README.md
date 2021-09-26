@@ -6,9 +6,9 @@
 
 ## Description
 
-This project implements a small generator of tournament grid and displays it in the terminal console.
+This project implements a small generator of tournament grid and displays the tournament grid in the terminal console (`stdout`).
 
-The type of tournament supported by the program is a **tournament where each participant meets each other participant only once**.
+The type of tournament supported by the program is the **round-robin tournament (where each participant meets each other participant only once)**.
 
 
 ## How to compile the project
